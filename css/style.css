@@ -1,0 +1,11 @@
+/* Global */
+@import "./global/global.css";
+
+/* Cafeteria*/
+@import "./cafeteria/header.css";
+@import "./cafeteria/introducao.css";
+
+/* Utilidades */
+@import "./utilidades/cores.css";
+@import "./utilidades/componentes.css";
+@import "./utilidades/tipografia.css";
