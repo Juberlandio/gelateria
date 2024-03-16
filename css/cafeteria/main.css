@@ -1,0 +1,100 @@
+/* main */
+.main {
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-content: center;
+align-items: center;
+gap: 0px;
+}
+.main picture .imagem{
+width: 100%;
+height: 627px;
+object-fit: cover;
+}
+.main .main-texto {
+width: 100%;
+height: 627px;
+}
+.main .main-texto h2{
+padding: 90px 20px 10px 20px;
+text-transform: uppercase;
+}
+.main .main-texto span{
+display: block;
+padding: 0px 20px 65px 20px;
+}
+.main .main-texto p{
+max-width: 509px;
+text-align: left;
+padding-right: 20px;
+padding-left: 20px;
+padding-bottom: 60px;
+}
+/* Seção Invertida */
+.main picture .imagem-1{
+width: 100%;
+height: 627px;
+object-fit: cover;
+grid-row: 2;
+}
+.main .main-texto-1 {
+width: 100%;
+height: 627px;
+grid-row: 1;
+}
+.main .main-texto-1 h2{
+padding: 90px 20px 10px 20px;
+text-transform: uppercase;
+}
+.main .main-texto-1 span{
+display: block;
+padding: 0px 20px 65px 20px;
+}
+.main .main-texto-1 p{
+max-width: 509px;
+text-align: left;
+padding-right: 20px;
+padding-left: 20px;
+padding-bottom: 60px;
+}
+@media (max-width: 600px) {
+.main {
+grid-template-columns: 1fr;
+}
+.main picture .imagem{
+height: auto;
+}
+.main .main-texto {
+height: auto;
+}
+.main .main-texto h2{
+font-size: 1.5rem;
+padding: 40px 10px 5px 10px;
+}
+.main .main-texto span{
+padding: 0px 10px 30px 10px;
+}
+.main .main-texto p{
+max-width: 509px;
+text-align: left;
+}
+.main picture .imagem-1{
+grid-row: 1;
+height: auto;
+}
+.main .main-texto-1 {
+grid-row: 2;
+height: auto;
+}
+.main .main-texto-1 h2{
+font-size: 1.5rem;
+padding: 40px 10px 5px 10px;
+}
+.main .main-texto-1 span{
+padding: 0px 10px 30px 10px;
+}
+.main .main-texto-1 p{
+max-width: 509px;
+text-align: left;
+}
+}
