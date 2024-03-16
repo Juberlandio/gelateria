@@ -21,9 +21,6 @@ align-items: center;
 padding: 15px;
 cursor: pointer;
 }
-.cabecalho .menu li{
-padding: 5px;
-}
 .cabecalho .menu a.ativo{
 background: var(--cor-13);
 padding: 8px 6px;
@@ -40,6 +37,9 @@ position: fixed;
 }
 .cabecalho {
 justify-content: center;
+}
+.cabecalho .menu li{
+padding: 15px;
 }
 }
 
