@@ -5,6 +5,7 @@
 @import "./cafeteria/header.css";
 @import "./cafeteria/introducao.css";
 @import "./cafeteria/main.css";
+@import "./cafeteria/footer.css";
 
 /* Utilidades */
 @import "./utilidades/cores.css";

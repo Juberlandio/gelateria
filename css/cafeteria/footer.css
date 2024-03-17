@@ -1,0 +1,39 @@
+/* Footer */
+.rodape-bg {
+background: var(--cor-13);
+height: auto;
+}
+.rodape {
+max-width: 860px;
+padding-left: 20px;
+padding-right: 20px;
+box-sizing: border-box;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 0px 60px;
+}
+.rodape img {
+margin-top: 37px;
+}
+.rodape h3 {
+text-transform: uppercase;
+padding-top: 52px;
+padding-bottom: 21px;
+}
+.rodape ul li{
+padding-bottom: 17px;
+}
+.rodape-bg p {
+padding-top: 68px;
+padding-bottom: 39px;
+}
+@media (max-width: 600px) {
+.rodape {
+gap: 40px;
+text-align: center;
+}
+}
