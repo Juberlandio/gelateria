@@ -30,3 +30,27 @@ padding-bottom: 18px;
 padding-bottom: 19px;
 max-width: 223px;
 }
+@media (max-width: 600px) {
+.sorvete-bg h2 {
+padding-top: 70px;
+padding-bottom: 40px;
+text-transform: uppercase;
+}
+.sorvete picture img {
+padding-top: 34px;
+padding-left: 24px;
+padding-right: 24px;
+}
+.sorvete-container {
+width: 250px;
+height: auto;
+}
+.sorvete h3 {
+padding-top: 30px;
+padding-bottom: 8px;
+}
+.sorvete p {
+padding-bottom: 9px;
+max-width: 223px;
+}
+}
