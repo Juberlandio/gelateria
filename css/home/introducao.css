@@ -9,7 +9,7 @@ padding-top: 80px;
 width: 800px;
 height: 800px;
 max-width: 100%;
-background-image: url('/img/banner-home.png');
+background-image: url('../img/banner-home.png');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;

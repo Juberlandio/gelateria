@@ -8,7 +8,7 @@ padding-top: 80px;
 width: 100%;
 height: 567px;
 max-width: 100%;
-background-image: url('/img/banner-sabores.jpg');
+background-image: url('../img/banner-sabores.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
