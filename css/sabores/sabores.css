@@ -1,0 +1,36 @@
+/* Sabores */
+.sabores-bg {
+width: 100%;
+height: 567px;
+padding-top: 80px;
+}
+.sabores {
+width: 100%;
+height: 567px;
+max-width: 100%;
+background-image: url('/img/banner-sabores.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.sabores h1 {
+width: 100%;
+height: 567px;
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+text-shadow: rgba(0, 0, 0, 60%) 4px 2px 4px;
+text-transform: uppercase;
+}
+@media (max-width: 600px){
+.sabores-bg {
+background: var(--cor-p1);
+width: 100%;
+height: 800px;
+}
+.sabores h1 {
+padding-top: 0px;
+font-size: 1.5rem;
+}
+}

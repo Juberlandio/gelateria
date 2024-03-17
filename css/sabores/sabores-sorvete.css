@@ -1,0 +1,32 @@
+/* Sabores-sorvete */
+.sorvete-bg h2 {
+padding-top: 107px;
+padding-bottom: 78px;
+text-transform: uppercase;
+}
+.sorvete {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 46px;
+padding-bottom: 136px;
+}
+.sorvete picture img {
+padding-top: 54px;
+padding-left: 44px;
+padding-right: 44px;
+}
+.sorvete-container {
+width: 307px;
+height: 362px;
+box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+}
+.sorvete h3 {
+padding-top: 48px;
+padding-bottom: 18px;
+}
+.sorvete p {
+padding-bottom: 19px;
+max-width: 223px;
+}

@@ -1,11 +1,15 @@
 /* Global */
 @import "./global/global.css";
 
-/* Cafeteria*/
-@import "./cafeteria/header.css";
-@import "./cafeteria/introducao.css";
-@import "./cafeteria/main.css";
-@import "./cafeteria/footer.css";
+/* home */
+@import "./home/header.css";
+@import "./home/introducao.css";
+@import "./home/main.css";
+@import "./home/footer.css";
+
+/* Sabores */
+@import "./sabores/sabores.css";
+@import "./sabores/sabores-sorvete.css";
 
 /* Utilidades */
 @import "./utilidades/cores.css";
