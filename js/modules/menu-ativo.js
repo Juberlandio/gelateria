@@ -7,6 +7,7 @@ function ativarLink(link) {
   if (url.includes(href)) {
     link.classList.add("ativo");
   }
+  this.ativarLink();
 } 
 
 links.forEach(ativarLink);

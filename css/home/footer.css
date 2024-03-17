@@ -16,6 +16,9 @@ justify-content: center;
 align-items: center;
 gap: 0px 60px;
 }
+.rodape .rodape-container {
+ margin: 20px;
+}
 .rodape img {
 margin-top: 37px;
 }
