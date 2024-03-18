@@ -5,20 +5,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gelateria</title>
-  <link rel="stylesheet" href="css/style.min.css">
-  <meta name="description" content="Desenvolvedor Front End e UX/UI Designer">
+  <meta name="description" content="Sorveteria">
   <link rel="icon" href="./Favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.min.css">
   <link rel="preload" href="css/style.min.css" as="style">
   <link rel="stylesheet" href="css/style.min.css">
 
   <script>document.documentElement.className += ' js';</script>
-</head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 
 <body>
   <header class="cabecalho-bg">
     <div class="cabecalho container">
       <a href="index.html"><img src="img/logo.png" width="74" height="74" alt="logo gelateria"></a>
-      <nav>
+      <nav aria-label="Primária">
         <ul class="menu font-1-s cor-13">
           <li><a href="index.html">Home</a></li>
           <li><a href="sabores.html">Sabores</a></li>
@@ -28,36 +31,36 @@
     </div>
   </header>
   <main>
-    <section class="introducao-bg" id="home">
+    <section class="introducao-bg" id="home" aria-label="introdução">
       <div class="introducao center">
         <h1 class="font-1-xxl cor-0">sorvete artesanal</h1>
       </div>
     </section>
-    <section class="main-bg" data-anime="scroll">
+    <section class="main-bg" aria-labelledby="main" data-anime="scroll">
       <div class="main">
         <picture>
           <img class="imagem" src="img/banner-sabores.jpg" width="869" height="627" alt="Bolas de sorvete">
         </picture>
         <div class="main-texto">
-          <h2 class="font-1-xl cor-13 center">Nossos sabores</h2>
+          <h2 id="main" class="font-1-xl cor-13 center">Nossos sabores</h2>
           <span class="font-1-mp cor-13 center">Novos e deliciosos!</span>
           <p class="font-1-l cor-13 center">Sorvete bom é aquele feito com os melhores ingredientes! Aqui na gelateria todos os nossos produtos são naturais, à base de frutas e sem nenhum conservante! Também temos opções sem lactose e sem açúcar. Venha conhecer e perceber que tem como o sorvete ser delicioso e saudável ao mesmo tempo!</p>
         </div>
       </div>
     </section>
-    <section class="main-bg" data-anime="scroll">
+    <section class="main-bg" aria-labelledby="eventos" data-anime="scroll">
       <div class="main">
         <picture>
           <img class="imagem-1" src="img/eventos-image.jpg" width="869" height="627" alt="Bolas de sorvete">
         </picture>
         <div class="main-texto-1">
-          <h2 class="font-1-xl cor-13 center">NOSSOS EVENTOS</h2>
+          <h2 id="eventos" class="font-1-xl cor-13 center">NOSSOS EVENTOS</h2>
           <span class="font-1-mp cor-13 center">Delícias com sorvete!</span>
           <p class="font-1-l cor-13 center">Mais do que uma sorveteria, uma extensão da sua casa! Estamos aqui prontinhos para te atender e oferecer os melhores eventos com os melhores sorvete da sua vida! Venha nos conhecer e passar um tempo aqui com a gente.</p>
         </div>
       </div>
     </section>
-    <section class="main-bg" data-anime="scroll">
+    <section class="main-bg" Sobre nós data-anime="scroll">
       <div class="main">
         <picture>
           <img class="imagem" src="img/sobre-image.jpg" width="869" height="627" alt="Bolas de sorvete">
@@ -70,7 +73,7 @@
       </div>
     </section>
   </main>
-  <footer class="rodape-bg">
+  <footer class="rodape-bg" aria-label="Rodapé">
     <div class="rodape">
       <picture>
         <a href="#home"><img src="img/logo.png" width="116" height="116" alt="Logo gelateria"></a>

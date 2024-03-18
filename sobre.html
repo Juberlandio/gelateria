@@ -5,14 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gelateria</title>
+  <meta name="description" content="Sorveteria">
+  <link rel="icon" href="./Favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.min.css">
-</head>
+  <script>document.documentElement.className += ' js';</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 <body>
   <header class="cabecalho-bg">
     <div class="cabecalho container" data-menu="suave">
       <a href="index.html"><img src="img/logo.png" width="74" height="74" alt="logo gelateria"></a>
-      <nav>
+      <nav aria-label="Primária">
         <ul class="menu font-1-s cor-13">
           <li><a href="index.html">Home</a></li>
           <li><a href="sabores.html">Sabores</a></li>
@@ -22,14 +27,14 @@
     </div>
   </header>
   <main>
-    <section class="sobre-bg">
+    <section class="sobre-bg" aria-label="Introdução">
       <div class="sobre">
         <h1 class="font-1-xxl cor-0">Nossos sabores</h1>
       </div>
     </section>
-    <article class="texto-sobre-bg" data-anime="scroll">
+    <article class="texto-sobre-bg" aria-labelledby="sobre" data-anime="scroll">
       <div class="texto-sobre container center">
-        <h2 class="font-1-m cor-13">Sobre Nós</h2>
+        <h2 id="sobre" class="font-1-m cor-13">Sobre Nós</h2>
         <span class="font-1-l cor-13">Nós simplesmente amamos sorvete!</span>
         <p class="font-1-xs cor-13">Somos uma empresa apaixonada pelo que faz. Colocamos amor em cada sorvete produzido. Fazemos o melhor sorvete para os nossos clientes e gostamos de receber elogios. Estamos operando desde 2009 com as melhores matérias-primas para a produção final do sorvete. Vendemos tanto para varejo como para atacado.</p>
         <p class="font-1-xs cor-13">Nossos clientes podem comprar os nossos sorvetes e degustar na nossa loja ou levar para sua residência e aproveitar junto com a família. Também vendemos para estabelecimentos e criamos eventos como festa de aniversário, formaturas e eventos empresariais. Para contratar os nossos serviços, basta entrar em contato conosco. Iremos proporcionar o melhor atendimento e os melhores produtos para você fazer a sua festa mais saborosa, com o melhor sorvete da cidade.</p>
@@ -46,7 +51,7 @@
       </div>
     </section>
   </main>
-  <footer class="rodape-bg">
+  <footer class="rodape-bg" aria-label="Rodapé">
     <div class="rodape">
       <picture>
         <a href="#home"><img src="img/logo.png" width="116" height="116" alt="Logo gelateria"></a>

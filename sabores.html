@@ -5,14 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gelateria</title>
+  <meta name="description" content="Sorveteria">
+  <link rel="icon" href="./Favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.min.css">
-</head>
+  <script>document.documentElement.className += ' js';</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 <body>
   <header class="cabecalho-bg">
     <div class="cabecalho container" data-menu="suave">
       <a href="index.html"><img src="img/logo.png" width="74" height="74" alt="logo gelateria"></a>
-      <nav>
+      <nav aria-label="Primária">
         <ul class="menu font-1-s cor-13">
           <li><a href="index.html">Home</a></li>
           <li><a href="sabores.html">Sabores</a></li>
@@ -22,74 +27,74 @@
     </div>
   </header>
   <main>
-    <section class="sabores-bg">
+    <section class="sabores-bg" aria-labelledby="sabores">
       <div class="sabores">
-        <h1 class="font-1-xxl cor-0">Nossos sabores</h1>
+        <h1 id="sabores" class="font-1-xxl cor-0">Nossos sabores</h1>
       </div>
     </section>
-    <section class="sorvete-bg" data-anime="scroll">
+    <section class="sorvete-bg" aria-label="Bolas de Sorvete" data-anime="scroll">
       <h2 class="font-1-m cor-13 center">Nossos Sabores</h2>
       <div class="sorvete container">
-         <div class="sorvete-container">
+        <div class="sorvete-container">
           <picture>
-             <img class="center" src="img/sabor-oreo.png" width="219" height="171" alt="Bolas de sorvete">
+            <img class="center" src="img/sabor-oreo.png" width="219" height="171" alt="Bolas de sorvete">
           </picture>
           <div>
             <h3 class="font-1-mp cor-13 center">Sorvete de Oreo</h3>
             <p class="font-1-sp cor-13 center">Delicioso sorvete sabor Oreo.Uma explosão de sabor.</p>
           </div>
-         </div>
-         <div class="sorvete-container">
+        </div>
+        <div class="sorvete-container">
           <picture>
-             <img class="center" src="img/sabor-pistache.png" width="219" height="171" alt="Bolas de sorvete">
+            <img class="center" src="img/sabor-pistache.png" width="219" height="171" alt="Bolas de sorvete">
           </picture>
           <div>
             <h3 class="font-1-mp cor-13 center">Sorvete Pistache</h3>
             <p class="font-1-sp cor-13 center">Cremoso sorvete sabor pistache com pedacinhos de semente.</p>
           </div>
-         </div>
-         <div class="sorvete-container">
+        </div>
+        <div class="sorvete-container">
           <picture>
-             <img class="center" src="img/sabor-cookies-avela.png" width="219" height="171" alt="Bolas de sorvete">
+            <img class="center" src="img/sabor-cookies-avela.png" width="219" height="171" alt="Bolas de sorvete">
           </picture>
           <div>
             <h3 class="font-1-mp cor-13 center">Sorvete Cookies & Avelã</h3>
             <p class="font-1-sp cor-13 center">O nosso melhor sorvete. Você vai adorar o sabor.
             </p>
           </div>
-         </div>
-         <div class="sorvete-container">
+        </div>
+        <div class="sorvete-container">
           <picture>
-             <img class="center" src="img/sorbet-kiwi.png" width="219" height="171" alt="Bolas de sorvete">
+            <img class="center" src="img/sorbet-kiwi.png" width="219" height="171" alt="Bolas de sorvete">
           </picture>
           <div>
             <h3 class="font-1-mp cor-13 center">Sorvete de Kiwi</h3>
             <p class="font-1-sp cor-13 center">Delicioso e refrescante sorvete sabor kiwi. Rico em vitamina C.
             </p>
           </div>
-         </div>
-         <div class="sorvete-container">
+        </div>
+        <div class="sorvete-container">
           <picture>
-             <img class="center" src="img/sorbet-morango.png" width="219" height="171" alt="Bolas de sorvete">
+            <img class="center" src="img/sorbet-morango.png" width="219" height="171" alt="Bolas de sorvete">
           </picture>
           <div>
             <h3 class="font-1-mp cor-13 center">Sorvete de Morango</h3>
             <p class="font-1-sp cor-13 center">Sorvete de morango gourmet. Tradicional e saboroso.</p>
           </div>
-         </div>
-         <div class="sorvete-container">
+        </div>
+        <div class="sorvete-container">
           <picture>
-             <img class="center" src="img/sorbet-limao.png" width="219" height="171" alt="Bolas de sorvete">
+            <img class="center" src="img/sorbet-limao.png" width="219" height="171" alt="Bolas de sorvete">
           </picture>
           <div>
             <h3 class="font-1-mp cor-13 center">Sorvete de Limão Siciliano</h3>
             <p class="font-1-sp cor-13 center">O incrivel sorvete gourmet de limão siciliano vai te encantar.</p>
           </div>
-         </div>
+        </div>
       </div>
     </section>
   </main>
-  <footer class="rodape-bg">
+  <footer class="rodape-bg" aria-label="Rodapé">
     <div class="rodape">
       <picture>
         <a href="#home"><img src="img/logo.png" width="116" height="116" alt="Logo gelateria"></a>
