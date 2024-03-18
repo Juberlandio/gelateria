@@ -4,6 +4,7 @@ background: var(--cor-p1);
 width: 100%;
 height: 80px;
 position: fixed;
+z-index: 3;
 }
 .cabecalho {
 display: flex;

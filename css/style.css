@@ -11,6 +11,10 @@
 @import "./sabores/sabores.css";
 @import "./sabores/sabores-sorvete.css";
 
+/* Sobre */
+@import "./sobre/sobre.css";
+@import "./sobre/texto-sobre.css";
+
 /* Utilidades */
 @import "./utilidades/cores.css";
 @import "./utilidades/componentes.css";

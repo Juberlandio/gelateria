@@ -1,0 +1,22 @@
+.texto-sobre h2 {
+padding-top: 80px;
+padding-bottom: 11px;
+}
+.texto-sobre span {
+display: block;
+padding-bottom: 50px;
+}
+.texto-sobre p{
+max-width: 930px;
+padding-left: 20px;
+padding-right: 20px;
+box-sizing: border-box;
+margin-left: auto;
+margin-right: auto;
+}
+.texto-sobre p + p {
+padding-top: 34px;
+}
+.texto-sobre p:last-child {
+padding-bottom: 80px;
+}
