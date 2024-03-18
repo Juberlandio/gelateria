@@ -80,7 +80,7 @@ text-align: left;
 }
 .main picture .imagem-1{
 grid-row: 1;
-height: auto;
+height: 200px;
 }
 .main .main-texto-1 {
 grid-row: 2;
