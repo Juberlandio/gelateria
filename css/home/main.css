@@ -62,7 +62,7 @@ padding-bottom: 60px;
 grid-template-columns: 1fr;
 }
 .main picture .imagem{
-height: auto;
+height: 200px;
 }
 .main .main-texto {
 height: auto;
