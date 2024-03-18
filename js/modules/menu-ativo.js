@@ -6,9 +6,7 @@ function ativarLink(link) {
   const href = link.href;
   if (url.includes(href)) {
     link.classList.add("ativo");
-    ativarLink();
   }
 } 
-
 links.forEach(ativarLink);
 }
