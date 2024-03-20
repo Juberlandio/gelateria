@@ -17,8 +17,6 @@
 export default function menuAtivo() {
   const links = document.querySelectorAll(".menu a");
   const activeClass = 'ativo';
-  links[0].classList.add(activeClass);
-  links[0].nextElementSibling.classList.add(activeClass);
   
   function ativarLink(link) {
     const url = new URL(window.location.href);
