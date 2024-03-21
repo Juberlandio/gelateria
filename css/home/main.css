@@ -76,7 +76,7 @@ padding: 0px 10px 30px 10px;
 }
 .main .main-texto p{
 max-width: 509px;
-text-align: left;
+text-align: center;
 }
 .main picture .imagem-1{
 grid-row: 1;
@@ -95,6 +95,6 @@ padding: 0px 10px 30px 10px;
 }
 .main .main-texto-1 p{
 max-width: 509px;
-text-align: left;
+text-align: center;
 }
 }
